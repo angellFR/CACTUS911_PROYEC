@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C38D21352A52F7F200692610 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D21342A52F7F200692610 /* MovieCell.swift */; };
+		C38D21372A52F8A200692610 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D21362A52F8A200692610 /* UIExtension.swift */; };
+		C3921F972A54B5520063B025 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3921F912A54B5520063B025 /* DetailPresenter.swift */; };
+		C3921F982A54B5520063B025 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3921F922A54B5520063B025 /* DetailRouter.swift */; };
+		C3921F992A54B5520063B025 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3921F932A54B5520063B025 /* DetailViewController.swift */; };
+		C3921F9A2A54B5520063B025 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3921F942A54B5520063B025 /* DetailProtocols.swift */; };
+		C3921F9B2A54B5520063B025 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3921F952A54B5520063B025 /* DetailInteractor.swift */; };
+		C3921F9C2A54B5520063B025 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3921F962A54B5520063B025 /* DetailViewController.xib */; };
 		C39B5CFC2A528FCE00D55D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5CFB2A528FCE00D55D2C /* AppDelegate.swift */; };
-		C39B5CFE2A528FCE00D55D2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5CFD2A528FCE00D55D2C /* SceneDelegate.swift */; };
-		C39B5D002A528FCE00D55D2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5CFF2A528FCE00D55D2C /* ViewController.swift */; };
-		C39B5D032A528FCE00D55D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39B5D012A528FCE00D55D2C /* Main.storyboard */; };
 		C39B5D052A528FD100D55D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39B5D042A528FD100D55D2C /* Assets.xcassets */; };
-		C39B5D082A528FD100D55D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39B5D062A528FD100D55D2C /* LaunchScreen.storyboard */; };
+		C39B5D162A52912C00D55D2C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D102A52912C00D55D2C /* HomePresenter.swift */; };
+		C39B5D172A52912C00D55D2C /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D112A52912C00D55D2C /* HomeRouter.swift */; };
+		C39B5D182A52912C00D55D2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D122A52912C00D55D2C /* HomeViewController.swift */; };
+		C39B5D192A52912C00D55D2C /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D132A52912C00D55D2C /* HomeProtocols.swift */; };
+		C39B5D1A2A52912C00D55D2C /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D142A52912C00D55D2C /* HomeInteractor.swift */; };
+		C39B5D1D2A5291CE00D55D2C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D1C2A5291CE00D55D2C /* Entity.swift */; };
+		C39B5D1F2A5292B500D55D2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39B5D1E2A5292B500D55D2C /* Constants.swift */; };
+		ECE956E482C64C70EED1D1B2 /* Pods_PRACTICA_CACTUS911.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B74821C9285F0644B8B2A18 /* Pods_PRACTICA_CACTUS911.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B74821C9285F0644B8B2A18 /* Pods_PRACTICA_CACTUS911.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRACTICA_CACTUS911.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAAB27D69BC4A4ABD27B399 /* Pods-PRACTICA_CACTUS911.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRACTICA_CACTUS911.debug.xcconfig"; path = "Target Support Files/Pods-PRACTICA_CACTUS911/Pods-PRACTICA_CACTUS911.debug.xcconfig"; sourceTree = "<group>"; };
+		C38D21342A52F7F200692610 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C38D21362A52F8A200692610 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C3921F912A54B5520063B025 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C3921F922A54B5520063B025 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		C3921F932A54B5520063B025 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C3921F942A54B5520063B025 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		C3921F952A54B5520063B025 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		C3921F962A54B5520063B025 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		C39B5CF82A528FCE00D55D2C /* PRACTICA_CACTUS911.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRACTICA_CACTUS911.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39B5CFB2A528FCE00D55D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C39B5CFD2A528FCE00D55D2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C39B5CFF2A528FCE00D55D2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C39B5D022A528FCE00D55D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C39B5D042A528FD100D55D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C39B5D072A528FD100D55D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39B5D092A528FD100D55D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39B5D102A52912C00D55D2C /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C39B5D112A52912C00D55D2C /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C39B5D122A52912C00D55D2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C39B5D132A52912C00D55D2C /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C39B5D142A52912C00D55D2C /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C39B5D1C2A5291CE00D55D2C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		C39B5D1E2A5292B500D55D2C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2750D9822A015907071522E /* Pods-PRACTICA_CACTUS911.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRACTICA_CACTUS911.release.xcconfig"; path = "Target Support Files/Pods-PRACTICA_CACTUS911/Pods-PRACTICA_CACTUS911.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE956E482C64C70EED1D1B2 /* Pods_PRACTICA_CACTUS911.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B08112C0CB5FF851C8F4731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B74821C9285F0644B8B2A18 /* Pods_PRACTICA_CACTUS911.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38D21332A52F7E700692610 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C38D21342A52F7F200692610 /* MovieCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C3921F902A54B5370063B025 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C3921F912A54B5520063B025 /* DetailPresenter.swift */,
+				C3921F922A54B5520063B025 /* DetailRouter.swift */,
+				C3921F932A54B5520063B025 /* DetailViewController.swift */,
+				C3921F942A54B5520063B025 /* DetailProtocols.swift */,
+				C3921F952A54B5520063B025 /* DetailInteractor.swift */,
+				C3921F962A54B5520063B025 /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		C39B5CEF2A528FCE00D55D2C = {
 			isa = PBXGroup;
 			children = (
 				C39B5CFA2A528FCE00D55D2C /* PRACTICA_CACTUS911 */,
 				C39B5CF92A528FCE00D55D2C /* Products */,
+				DA46C6430867A7F705FC54EF /* Pods */,
+				7B08112C0CB5FF851C8F4731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,38 @@
 		C39B5CFA2A528FCE00D55D2C /* PRACTICA_CACTUS911 */ = {
 			isa = PBXGroup;
 			children = (
+				C3921F902A54B5370063B025 /* Detail */,
 				C39B5CFB2A528FCE00D55D2C /* AppDelegate.swift */,
-				C39B5CFD2A528FCE00D55D2C /* SceneDelegate.swift */,
-				C39B5CFF2A528FCE00D55D2C /* ViewController.swift */,
-				C39B5D012A528FCE00D55D2C /* Main.storyboard */,
+				C39B5D0F2A52911400D55D2C /* Home */,
 				C39B5D042A528FD100D55D2C /* Assets.xcassets */,
-				C39B5D062A528FD100D55D2C /* LaunchScreen.storyboard */,
+				C38D21362A52F8A200692610 /* UIExtension.swift */,
+				C39B5D1E2A5292B500D55D2C /* Constants.swift */,
 				C39B5D092A528FD100D55D2C /* Info.plist */,
 			);
 			path = PRACTICA_CACTUS911;
+			sourceTree = "<group>";
+		};
+		C39B5D0F2A52911400D55D2C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C38D21332A52F7E700692610 /* Cell */,
+				C39B5D102A52912C00D55D2C /* HomePresenter.swift */,
+				C39B5D112A52912C00D55D2C /* HomeRouter.swift */,
+				C39B5D122A52912C00D55D2C /* HomeViewController.swift */,
+				C39B5D132A52912C00D55D2C /* HomeProtocols.swift */,
+				C39B5D142A52912C00D55D2C /* HomeInteractor.swift */,
+				C39B5D1C2A5291CE00D55D2C /* Entity.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA46C6430867A7F705FC54EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CAAB27D69BC4A4ABD27B399 /* Pods-PRACTICA_CACTUS911.debug.xcconfig */,
+				E2750D9822A015907071522E /* Pods-PRACTICA_CACTUS911.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39B5D0C2A528FD100D55D2C /* Build configuration list for PBXNativeTarget "PRACTICA_CACTUS911" */;
 			buildPhases = (
+				F2564FFD2B4111201F514A5E /* [CP] Check Pods Manifest.lock */,
 				C39B5CF42A528FCE00D55D2C /* Sources */,
 				C39B5CF52A528FCE00D55D2C /* Frameworks */,
 				C39B5CF62A528FCE00D55D2C /* Resources */,
+				4D478A7804DB92E889FA7F9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +208,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39B5D082A528FD100D55D2C /* LaunchScreen.storyboard in Resources */,
 				C39B5D052A528FD100D55D2C /* Assets.xcassets in Resources */,
-				C39B5D032A528FCE00D55D2C /* Main.storyboard in Resources */,
+				C3921F9C2A54B5520063B025 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D478A7804DB92E889FA7F9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PRACTICA_CACTUS911/Pods-PRACTICA_CACTUS911-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PRACTICA_CACTUS911/Pods-PRACTICA_CACTUS911-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PRACTICA_CACTUS911/Pods-PRACTICA_CACTUS911-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2564FFD2B4111201F514A5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PRACTICA_CACTUS911-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C39B5CF42A528FCE00D55D2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39B5D002A528FCE00D55D2C /* ViewController.swift in Sources */,
 				C39B5CFC2A528FCE00D55D2C /* AppDelegate.swift in Sources */,
-				C39B5CFE2A528FCE00D55D2C /* SceneDelegate.swift in Sources */,
+				C39B5D192A52912C00D55D2C /* HomeProtocols.swift in Sources */,
+				C38D21352A52F7F200692610 /* MovieCell.swift in Sources */,
+				C3921F982A54B5520063B025 /* DetailRouter.swift in Sources */,
+				C38D21372A52F8A200692610 /* UIExtension.swift in Sources */,
+				C39B5D1D2A5291CE00D55D2C /* Entity.swift in Sources */,
+				C39B5D172A52912C00D55D2C /* HomeRouter.swift in Sources */,
+				C39B5D1A2A52912C00D55D2C /* HomeInteractor.swift in Sources */,
+				C39B5D162A52912C00D55D2C /* HomePresenter.swift in Sources */,
+				C39B5D182A52912C00D55D2C /* HomeViewController.swift in Sources */,
+				C39B5D1F2A5292B500D55D2C /* Constants.swift in Sources */,
+				C3921F972A54B5520063B025 /* DetailPresenter.swift in Sources */,
+				C3921F9A2A54B5520063B025 /* DetailProtocols.swift in Sources */,
+				C3921F992A54B5520063B025 /* DetailViewController.swift in Sources */,
+				C3921F9B2A54B5520063B025 /* DetailInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C39B5D012A528FCE00D55D2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C39B5D022A528FCE00D55D2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C39B5D062A528FD100D55D2C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C39B5D072A528FD100D55D2C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C39B5D0A2A528FD100D55D2C /* Debug */ = {
@@ -282,6 +399,7 @@
 		};
 		C39B5D0D2A528FD100D55D2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAAB27D69BC4A4ABD27B399 /* Pods-PRACTICA_CACTUS911.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +410,9 @@
 				INFOPLIST_FILE = PRACTICA_CACTUS911/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +428,7 @@
 		};
 		C39B5D0E2A528FD100D55D2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2750D9822A015907071522E /* Pods-PRACTICA_CACTUS911.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +439,9 @@
 				INFOPLIST_FILE = PRACTICA_CACTUS911/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
